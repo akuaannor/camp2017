@@ -1,0 +1,25 @@
+body {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: none;
+}
+
+.full {
+  background: url(../images/22.jpg) no-repeat center center fixed; 
+  background-color: rgba(0,0.5,0,0.5);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+ /* height: 100%;
+  background: #093028;  
+background: -webkit-linear-gradient(to top, #237A57, #093028);  
+background: linear-gradient(to top, #237A57, #093028);*/
+
+
+}
+
+#myModal2 {
+	margin-top:200px;
+}
