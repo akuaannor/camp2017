@@ -43,7 +43,7 @@ else {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="">ICGC - Youth Department</a>
+                <a class="navbar-brand" href="../index">ICGC - Youth Department</a>
             </div>
                 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -51,7 +51,7 @@ else {
                 <ul class="nav navbar-nav pull-right">
                    <!--  <li><a href="index" class="selected">Home</a></li> -->
                     <!-- <li><a href="hgt_Camp/index">Admin Login</a></li> -->
-                    <li><a href="#termsModal" role="button" data-toggle="modal" class="" style="color: #ffe401; font-weight: bolder; ">Camp registration</a></li>
+                    <li><a href="../form" role="button" class="" style="color: #ffe401; font-weight: bolder; ">Camp registration</a></li>
                     <li><a href="fsf.pdf" role="button"  class="" style="color: #ffe401; font-weight: bolder; ">CAMP ITEMS</a></li>
                 </ul>
             </div>
@@ -63,27 +63,16 @@ else {
   <?php echo $alert;?>
 </div>
   
-	<div class='container' role="main">
-
+	<div class='container' role="main" style="height: 536px;">
+    <?php echo $Imagealert; ?>
     <?php echo $info; ?>
 
   </div>
   <!-- footer -->
-</style>
-    <!-- <div class="footer navbar navbar-inverse navbar-fixed-bottom">
-      <div class="container">
-        <h3>ICGC HOLY GHOST TEMPLE</h3>
-        <p>© 2017 - Youth Department</p>
-        <div class="social-icons">
-          <ul>
-            <li><a href="#" class="fa fa-facebook icon icon-border facebook"> </a></li>
-            <li><a href="#" class="fa fa-twitter icon icon-border twitter"> </a></li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
-<!-- //footer -->
 
+  <?php include('../includes/footer.php'); ?>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script> 
+  <script src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
